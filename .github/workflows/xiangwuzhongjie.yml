@@ -1,0 +1,25 @@
+name: xiangwuzhongjie
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '53 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangwuzhongjie
+        env:
+          irr8769: ${{ secrets.irr8769 }}
+        run: |
+          echo $irr8769 | jq -r .dxnph0 | /bin/bash
+          echo $oefdw1385 | jq -r .k21683 | /bin/bash
+          echo $mvwvb6086 | jq -r .u2078 | /bin/bash
+          echo $rfbwm0 | jq -r .tjnwt51 | /bin/bash
+          echo $utx31719 | jq -r .u724 | /bin/bash
+          echo $joxb15 | jq -r .ennb98 | /bin/bash
+          echo $jukfi3 | jq -r .jfbz68 | /bin/bash
+          echo $ydjkr21 | jq -r .hwzth8693 | /bin/bash
+          echo $m93438 | jq -r .m8 | /bin/bash
+
